@@ -2,8 +2,10 @@ angular.module("app").controller("usuarioController", function ($scope, $locatio
       
     $scope.getAllusuarios = function (id) {
           usuarioService.getAll().then(function (response) {
+
           // $scope.AtmosferaLugar = angular.copy(response.data);
-          // console.log($scope.AtmosferaLugar);
+           console.log(response.nome);
+          
       });
   }
 });

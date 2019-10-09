@@ -2,7 +2,7 @@
 
     $routeProvider
         .when("/", {
-            templateUrl: "modules/usuario/view/usuario.view.html",
+            templateUrl: "modules/Usuario/view/usuario.view.html",
             controller: "usuarioController"
         })
                 
