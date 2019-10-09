@@ -1,3 +1,3 @@
 ﻿angular.module("app").value("config", {
-    baseUrl: "https://localhost:5001/"
+    baseUrl: "https://localhost:44391/"
 });

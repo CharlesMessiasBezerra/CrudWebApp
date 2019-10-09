@@ -1,8 +1,7 @@
 angular.module("app").service("usuarioService", function ($http, config) {
-
   return {
-      getAll: function () {
-          return $http.get(config.baseUrl + "usuario");
+      getAll: function (id) {
+          return $http.get(config.baseUrl + "api/usuario/"+id);
       }
   };
 });
