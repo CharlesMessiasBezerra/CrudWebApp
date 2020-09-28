@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="csharp" title="csharp" src=".github/angular.jpg" />
+    <img alt="angularjs" title="angularjs" src=".github/angularjs.jpg" />
 </h1>
 
 <p align="center">
